@@ -39,3 +39,7 @@ Run everything (Fine-tune, Train, Quantize)
 ```bash
 ./run_all.sh --all
 ```
+
+## Calculating Expected Quantization Error
+
+The following link https://www.desmos.com/calculator/dhqpjjqsqw leads to the calculator that was used to calculate the expected quantization error values for the random matrices mentioned in our report. Note that the calculations may take some time.
