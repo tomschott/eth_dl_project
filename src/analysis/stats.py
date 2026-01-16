@@ -97,7 +97,7 @@ def compute_statistics(results, net, criterion, input_img, label,
         
         # Get top 2 eigenvalues/vectors
         top_eigenvalues, top_eigenvectors = hessian_comp.eigenvalues(top_n=2)
-        results[optimizer_key]['sharpness'].append(top_eigenvalues[-2]) # Second largest
+        results[optimizer_key]['sharpness'].append(top_eigenvalues[-2]) # largest eigenvalue
 
         # Flatten top eigenvector
         ev = top_eigenvectors[-1] if isinstance(top_eigenvectors, list) else top_eigenvectors
