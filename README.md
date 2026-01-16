@@ -23,10 +23,10 @@ The code is organized under `src/` to separate data loading, training logic, and
 
 ### 1. Install Dependencies
 
-Ensure you have PyTorch installed. This project also relies on `pyhessian` for curvature analysis and `matplotlib` for plotting.
+All requirements are listed in the requirements.txt file, install them with
 
 ```bash
-pip install torch torchvision tqdm pyhessian matplotlib numpy
+pip install -r requirements.txt
 ```
 
 ### 2. Run the Full Experiment
